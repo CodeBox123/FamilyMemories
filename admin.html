@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Huynh Travel Blog~homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@700&family=DynaPuff&family=Kalam&family=Phudu&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body id="homepage" onload="whenstartpage()">
+    <center>
+        <h1>Family Memorys -- <b>Admin</b></h1>
+    </center>
+
+    <div id="wallpaper">
+        <button class="navbar" onclick="Home()">Home</button>
+        <button class="navbar" onclick="charlotte()">Charlotte</button>
+        <button class="navbar" onclick="charlie()">Charlie</button>
+        <button class="navbar" onclick="familyMemoriesadmin()">Album</button>
+    </div>
+    <center>
+        <div id="content" class="container">
+
+            <h1>Welcome, Mami</h1>
+            <div class="inline">
+                <div class="p">
+                    <h4><b>Hello!</b><br> We are a happy family of 4 and are eager to share our memories with you!</h4>
+                </div>
+                <img id="mainpageportrait" src="img/portrait-charlieandeffects.png">
+                <div class="box"></div>
+                <figcaption class="dateplace">FL, 2023</figcaption>
+            </div>
+
+            <div class="inline">
+
+                <img id="roadtrip" src="img/roadtrip.jpg">
+                <div class="p2">
+                    <h4>we've been to...</h4>
+                    <div id="divoutputadmin">
+                    <ul id="output"></ul>
+                    </div>
+                    <input type="text" placeholder="Places we've been" class="form-control" id="input">
+                    <button style="float: left;" class="btn btn-primary" onclick="updateplaces()">enter</button>
+        
+                </div>
+                <div class="box2"></div>
+                <figcaption class="dateplace">MT, 2022</figcaption>
+            </div>
+            <br>
+            <div class="p3">
+                <h4>Anyway... Welcome to the Family!</h4>
+            </div>
+            <img id="meetus" src="img/meetus.png">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div id="check">
+            <h4>Check out our album!-></h4> <button style="margin-left: -50px;" class="navbar" onclick="familyMemoriesadmin()">Family Memories</button>
+            </div>
+            <div class="box3"></div>
+            <figcaption class="dateplace">WY, 2022</figcaption>
+        </div> <br>
+
+        </div>
+        <footer id="footer">
+            <h4>
+            If you want to head back click <a href="index.html">here</a> 
+            </h4>
+        </footer>
+
+    </center>
+    <script src="admin.js"></script>
+</body>
+
+</html>

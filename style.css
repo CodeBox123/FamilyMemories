@@ -1,0 +1,211 @@
+#homepage{
+    background-image: url("img/wallpaper.webp");
+    background-size: cover;
+    
+}
+
+#wallpaper{
+    width: 100%; 
+    height: 100px;
+    background-size: cover;
+    background-image: url("img/waterfall.png");
+    display: inline-block;
+    border-bottom: 15px;
+    border-bottom-color: #ffffff;
+    border-bottom-style: double;
+}
+
+#wallpaper2{
+    width: 100%; 
+    height: 100px;
+    background-size: cover;
+    background-image: url("img/waterfall.png");
+    display: inline-block;
+    border-bottom: 15px;
+    border-bottom-color: white;
+    border-bottom-style: double;
+}
+
+h1{
+    margin: 20px;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+}
+
+.navbar{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    border-radius: 15px;
+    background-image: url("img/Bg.png");
+}
+
+#content{
+    width: 70%;
+}
+
+.p{
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 300px;
+    background-image: url("img/wallpaper background.jpg");
+
+}
+
+
+#mainpageportrait{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 300px;
+
+}
+
+.box{
+    height: 309px;
+}
+
+.box2{
+    height: 340px;
+}
+
+.dateplace{
+    float: left;
+    font-family: 'Kalam', cursive;
+}
+
+h4{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    text-align: left;
+}
+
+#roadtrip{
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+    overflow-y:auto;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+.p2{
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 320px;
+    height: 300px;
+    background-image: url("img/mountains.png");
+
+}
+
+.p3{
+    
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 740px;
+    height: 100px;
+    background-image: url("img/Bg.png");
+
+}
+
+h5{
+    text-align: left;
+    font-family: 'Phudu', cursive;
+}
+
+#footer{
+
+    left: 0;
+    bottom: 0;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    background-image:url("img/footer.png");
+    height: 70px;
+}
+
+#meetus{
+    width: 500px;
+    right: 100px;
+    float: left;
+}
+
+.box3{
+    height: 70px;
+}
+
+ul{
+    text-align: left;
+}
+
+#divoutputadmin{
+    overflow-y:auto;
+    width: 320px;
+    height: 140px;
+}
+
+#divoutput{
+    overflow-y:auto;
+    width: 320px;
+    height: 250px;
+}
+
+#bannerImg{
+    height: 200px;
+}
+
+#output{
+    font-family: 'Caveat', cursive;
+    }
+
+.album{
+    object-fit: cover;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-color: #ffa4b9;
+    border-width: 5px;
+    border-style: outset;
+}
+
+#albumdiv{ 
+    float: left;
+    margin: 20px;
+    margin-left: 80px;
+    background-color: #ffffff7b;
+    width: 670px;
+    height: fit-content;
+}
+
+.img__description {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: rgba(154, 29, 152, 0.413);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    left: 10px;
+    top: 10px;
+    padding-top: 20px;
+    transition: opacity .2s, visibility .2s;
+}
+.albumdiv_output2 {
+    position: relative;
+    display: inline-flex;
+}
+.albumdiv_output2:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+
+  

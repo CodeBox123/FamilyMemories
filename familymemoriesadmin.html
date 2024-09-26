@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Huynh Travel Blog~homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@700&family=DynaPuff&family=Kalam&family=Phudu&family=Sacramento&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body  id="homepage">
+    <center>
+        <h1>Family Memorys</h1>
+    </center>
+
+    <div id="wallpaper2">
+        <button class="navbar" onclick="Home()">Home</button>
+        <button class="navbar" onclick="charlotte()">Charlotte</button>
+        <button class="navbar" onclick="charlie()">Charlie</button>
+        <button class="navbar" onclick="familyMemories()">Album</button>
+    </div>
+    <center>
+        <div id="content" class="container">
+            <img id="bannerImg" src="" alt="">
+
+            <div id="form"></div>
+            <input type='file' id="uploadBannerImage" onchange="readURL(this);" accept="image/*" />
+
+        <div class="inline">
+        </div>
+
+
+        </div>
+        <footer id="footer">
+            <h5>If you want to head back click <a href="familymemories.html">here</a> </h5>
+        </footer>
+
+    </center>
+    <script src="fmadmin.js"></script>
+</body>
+
+</html>
